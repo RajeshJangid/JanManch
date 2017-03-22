@@ -1,0 +1,28 @@
+.nav-stacked > li.active > a, .nav-stacked > li.active > a:focus, .nav-stacked > li.active > a:hover{
+	border-radius: 0px;
+	background-color: rgba(214, 220, 225, 0.39);
+	border-right: 5px solid rgb(234, 234, 234);
+}
+
+.nav-stacked > li > a{
+	color: white;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: inherit;
+	transition: background-color .5s;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	border-radius: 0px;
+	background-color: none;
+}
+
+.nav-stacked > li > a > .fa{
+	font-size: 20px;
+	margin: 0px 10px 5px 0px;
+}
+
+.nav-stacked > li > a:hover{
+	border-radius: 0px;
+	background-color:rgba(214, 220, 225, 0.39); 
+}

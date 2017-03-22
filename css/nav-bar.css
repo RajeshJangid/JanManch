@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+nav.header-nav{
+	background-color: rgba(39, 39, 39, 0.63);
+	border: medium none;
+	min-height: 60px;
+	padding: 5px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav > li > a.header-link{
+	color: white;
+	font-size: 16px;
+}
+
+.nav > .account-dropdown{
+	border-radius: 50%;
+	width: 42px;
+	height: 42px;
+	background-color: rgba(255, 255, 255, 0.26);
+	margin-top: 6px;
+}
+
+.nav > .account-dropdown > a.header-link, .nav > .account-dropdown > a.header-link:active, .nav > .account-dropdown > a.header-link:hover, .nav > .account-dropdown > a.header-link:visited{
+	padding: 10px 15px;
+	background-color: transparent;
+}
+
+.navbar-header > a.header-brand, .navbar-header > a.header-brand:hover, .navbar-header > a.header-brand:focus, .navbar-header > a.header-brand:visited{
+	font-size: 22px;
+	font-weight: 600;
+	color: rgb(237, 214, 188);
+	letter-spacing: 3px;
+	text-shadow: 0px 0px 25px;
+	padding: 15px 55px;
+}
+
+@media (max-width: 600px){
+	.navbar-header > a.header-brand, .navbar-header > a.header-brand:hover, .navbar-header > a.header-brand:focus, .navbar-header > a.header-brand:visited{
+		padding: 15px 15px;
+	}
+}

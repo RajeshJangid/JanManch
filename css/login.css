@@ -1,0 +1,75 @@
+
+.login-card > .login-form > .login-header{
+	text-align: center;
+	color: rgba(255, 255, 255, 0.58);
+	font-weight: 600;
+}
+
+.login-card{
+	background-color: white;
+	box-shadow: 0px 0px 30px -15px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+@media (max-width: 600px){
+	.login-card{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.form-group > label.input-label{
+	color: rgba(255, 255, 255, 0.54);
+	width: 50%;
+	background-color: rgba(63, 61, 61, 0.41);
+	margin: 0px;
+	padding: 5px;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 5px;
+}
+
+.form-group > input.group-with-label{
+	border-top-left-radius: 0px;
+}
+
+a.login-form-link{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+button.login-button{
+	background-color: rgb(111, 182, 185);
+	color: white;
+	font-weight: 400;
+}
+
+.row > div > button{
+	margin-bottom: 10px;
+}
+
+.cw-social-signin > div > p{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-weight: 600;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+}
+
+.cw-social-signin > div > p > .cw-social-icon{
+	width: 30px;
+	height: 30px;
+	font-size: 25px;
+	position: absolute;
+	top: 5px;
+	left: 15px;
+}
+
+.cw-social-signin > div > p > span{
+	padding: 10px 10px 10px 50px;
+	display: inline-block;
+}

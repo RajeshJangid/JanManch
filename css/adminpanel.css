@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+
+.context-body{
+	
+}
+
+.context-body > .body-row{
+	position: relative;
+}
+
+.context-body > .body-row > .body-menu{
+	position: absolute; 
+	padding: 0px; 
+	background-color: rgb(85, 195, 191); 
+	z-index: 10;
+	box-shadow: 0px 0px 7px -2px;
+}
+
+@media screen and (max-width: 768px){
+	.context-body > .body-row > .body-menu{
+		width: 200px;
+		transition: left .2s;
+	}
+	
+	.context-body > .body-row > .menu-expanded{
+		left: 0px;
+	}
+	
+	.context-body > .body-row > .menu-collapsed{
+		left: -200px;
+	}
+}
+
+.body-menu > span.collapse-menu{
+	cursor: pointer; 
+	margin-right: 10px; 
+	position: absolute; 
+	top: 0px; 
+	right: -50px; 
+	font-size: 20px; 
+	padding: 10px; 
+	background-color: white; 
+	border-right: 1px solid rgb(222, 222, 222); 
+	border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.context-body > .body-row > .body-content{
+	position: absolute; 
+	background-color: white;
+}
+
+.expand-menu{
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+
+

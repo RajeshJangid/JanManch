@@ -1,0 +1,58 @@
+.page-wrapper{
+	background-image: url('../images/writer-back2.jpg'); 
+	backgroud-size: cover;
+	background-attachment: fixed;
+}
+
+.content-wrapper{
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.content-wrapper > .content-menu{
+	width:250px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: auto; 
+	background-color: rgba(39, 39, 39, 0.63);
+	transition: left 1s;
+}
+
+.content-wrapper > .content-body{
+	padding-left: 250px;
+	width: 100%;
+	trainsition: padding-left 1s;
+}
+
+.body-container{
+	background-color: rgba(255, 255, 255, 0.93);
+	min-height: 400px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.6) inset;
+}
+
+.container-fluid > .row > div > h4.content-title{
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(152, 140, 140);
+}
+
+.footer{
+	padding: 50px;
+	background-color: white;
+	text-align: center;
+}
+
+@media (max-width: 600px){
+	.content-wrapper > .content-menu{
+		left: -250px;
+	}	
+	.content-wrapper > .content-body{
+		padding-left: 0px;
+		transition: padding-left 1s;
+	}
+		
+}
+
+
+

@@ -1,0 +1,5 @@
+CREATE TABLE complain_table(complain_id INT NOT NULL AUTO_INCREMENT,aadhar_no NVARCHAR(50) NOT NULL ,subject NVARCHAR(1000) NOT NULL ,department NVARCHAR(1000) NOT NULL,complain_type NVARCHAR(100) NOT NULL,publish_date DATETIME,CONSTRAINT pk_complain_table PRIMARY KEY(complain_id));
+
+CREATE TABLE login_table(id INT NOT NULL AUTO_INCREMENT,aadhar_no NVARCHAR(50) NOT NULL ,password NVARCHAR(50) NOT NULL , type VARCHAR(10) NOT NULL, CONSTRAINT pk_login_table PRIMARY KEY(id));
+
+CREATE TABLE approval_sign(sign_id INT NOT NULL AUTO_INCREMENT,aadhar_no NVARCHAR(50) NOT NULL ,sign_like NVARCHAR(2) NOT NULL,sign_dislike NVARCHAR(2) NOT NULL,CONSTRAINT pk_approval_sign PRIMARY KEY(sign_id));

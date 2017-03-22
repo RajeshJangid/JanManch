@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>JanManch</display-name>
+
+	<servlet>
+		<javaee:description></javaee:description>
+		<javaee:display-name>RequestGet</javaee:display-name>
+		<servlet-name>requestget</servlet-name>
+		<servlet-class>com.janmanch.RequestGet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>requestget</servlet-name>
+		<url-pattern>/RequestGet</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/RequestGet</location>
+	</error-page>
+</web-app>
